@@ -1,0 +1,42 @@
+header, footer {
+    padding: 1rem;
+    background-color: white;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.colour-box {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.colour-input {
+    width: 100%;
+}
+
+#colour-input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 0.75rem;
+    border: none;
+    text-align: center;
+}
